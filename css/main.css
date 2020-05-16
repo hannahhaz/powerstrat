@@ -1,249 +1,244 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik:normal');
+@import url("https://fonts.googleapis.com/css?family=Rubik:normal");
 
 body {
-    font-family: Rubik, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Rubik, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    padding: 0;
-    margin: 0;
-}
-
-.banner {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
-.power {
-    position: fixed;
-    width: 166px;
-    font-size: 30px;
-    color: #F2F2F2;
-    text-decoration: none;
-    left: 108px;
-    top: 27px;
-}
-
-nav ul {
-    list-style-type: none;
-    text-decoration: none;
-    display: flex;
-}
-
-nav ul li {
-    padding: 0 10px;
-    font-size: 18px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #F2F2F2;
-}
-
-nav {
-    position: fixed;
-    top: 33px;
-    right: 105px;
-    width: auto;
-    text-align: center;
-    z-index: 3;
+  padding: 0;
+  margin: 0;
 }
 
 .banner-container {
-    position: relative;
-}
-
-h1 {
-    position: absolute;
-    top: 222px;
-    left: 108px;
-    max-width: 844px;
-    color: #F2F2F2;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .banner {
-    width: 100%;
-    height: 720px;
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  position: relative;
+  max-width: 844px;
+  color: #f2f2f2;
+  left: 108px;
+}
+
+.power {
+  position: fixed;
+  width: 166px;
+  font-size: 30px;
+  color: #f2f2f2;
+  text-decoration: none;
+  left: 108px;
+  top: 27px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+}
+
+nav ul li {
+  padding: 0 10px;
+  font-size: 18px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+nav {
+  position: fixed;
+  top: 33px;
+  right: 105px;
+  width: auto;
+  text-align: center;
+  z-index: 3;
 }
 
 .gray {
-    width: 100%;
-    background-color: yellow;
-    padding: 30px;
-    margin: 0px;
+  width: 100%;
+  background-color: yellow;
+  padding: 30px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
 .gray h2 {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 .gray p {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .who {
-    display: flex;
-    margin-top: 25px;
-    justify-content: center;
-
+  display: flex;
+  margin-top: 25px;
+  justify-content: center;
 }
 
 .description {
-    max-width: 525px;
+  max-width: 525px;
 }
 
 .ot {
-    margin-left: 150px;
+  margin-left: 150px;
 }
 
 .expi {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .expi img {
-    margin-right: 170px;
+  margin-right: 170px;
 }
 
 .experience {
-    max-width: 525px;
-
+  max-width: 525px;
 }
 
 .white-container {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    background: white;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: white;
 }
 
 .values1 {
-    display: flex;
-    justify-content: center;
-    margin-left: 110px;
-    margin-right: 110px;
+  display: flex;
+  justify-content: center;
+  margin-left: 110px;
+  margin-right: 110px;
 }
 
 .integrity {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .trust {
-    margin-right: 20px;
-    max-width: 1560px;
+  margin-right: 20px;
+  max-width: 1560px;
 }
 
 .integrity {
-    max-width: 1560px;
+  max-width: 1560px;
 }
 
 .values2 {
-    display: flex;
-    justify-content: center;
-    margin-left: 110px;
-    margin-right: 110px;
+  display: flex;
+  justify-content: center;
+  margin-left: 110px;
+  margin-right: 110px;
 }
 
 .excell {
-    max-width: 1540px;
-    margin-right: 20px;
+  max-width: 1540px;
+  margin-right: 20px;
 }
 
 .client {
-    margin-left: 20px;
-    max-width: 1540px;
+  margin-left: 20px;
+  max-width: 1540px;
 }
 
 .values3 {
-    margin-left: 110px;
+  margin-left: 110px;
 }
 
 .values3 p {
-    max-width: 40%;
+  max-width: 40%;
 }
 
 .white-container h2 {
-    position: relative;
-    font-size: 40px;
-    max-width: 518px;
-    margin-left: 100px;
+  position: relative;
+  font-size: 40px;
+  max-width: 518px;
+  margin-left: 100px;
 }
 
 .white-container h3 {
-    font-size: 26px;
+  font-size: 26px;
 }
 
 .white-container p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .blue-container {
-    width: 100%;
-    background-color: #182B54;
-    padding: 20px 0 30px;
+  width: 100%;
+  background-color: #182b54;
+  padding: 20px 0 30px;
 }
 
 .drop {
-    color: #F2F2F2;
-    font-size: 26px;
-    text-align: center;
+  color: #f2f2f2;
+  font-size: 26px;
+  text-align: center;
 }
 
-
 .Name {
-    margin-right: 25px;
+  margin-right: 25px;
 }
 
 input#name {
-    padding: 5px 100px 5px 10px;
-    border-radius: 6px;
-    font-family: Rubik;
+  padding: 5px 100px 5px 10px;
+  border-radius: 6px;
+  font-family: Rubik;
 }
 
 input.email {
-    padding: 5px 100px 5px 10px;
-    border-radius: 6px;
-    font-family: Rubik;
+  padding: 5px 100px 5px 10px;
+  border-radius: 6px;
+  font-family: Rubik;
 }
 
 input.subject {
-    padding: 5px 400px 5px 10px;
-    margin-top: 15px;
-    border-radius: 6px;
-    font-family: Rubik;
+  padding: 5px 400px 5px 10px;
+  margin-top: 15px;
+  border-radius: 6px;
+  font-family: Rubik;
 }
 
 input.message {
-    padding: 5px 400px 150px 10px;
-    margin-top: 15px;
-    border-radius: 6px;
-    font-family: Rubik;
+  padding: 5px 400px 150px 10px;
+  margin-top: 15px;
+  border-radius: 6px;
+  font-family: Rubik;
 }
 
 button.send {
-    border-radius: 6px;
-    padding: 10px 30px;
-    background: #1345A5;
-    margin-top: 15px;
-    font-size: 14px;
-    color: #FFFFFF;
-    font-family: Rubik;
-    margin-left: 59%;
+  border-radius: 6px;
+  padding: 10px 30px;
+  background: #1345a5;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #ffffff;
+  font-family: Rubik;
+  margin-left: 59%;
 }
 
 .footer-container {
-    background: #091631;
-    margin: 0;
-    padding: 15px 0 15px;
+  background: #091631;
+  margin: 0;
+  padding: 15px 0 15px;
 }
 
 .copyright {
-    font-size: 13px;
-    color: #F2F2F2;
-    text-align: center;
-
+  font-size: 13px;
+  color: #f2f2f2;
+  text-align: center;
 }
